@@ -1,0 +1,22 @@
+name: "Smart-Warehouse-Management"
+version: "1.0.0"
+description: "AI environment for inventory optimization."
+
+observation_space:
+  observation_space:
+  type: "Box"
+  low: [0, 0, 0]
+  high: [200, 200, 30]
+  shape: [3]  
+action_space:
+  type: "Discrete"
+  n: 3
+
+tasks:
+  - id: "warehouse-easy"
+    description: "Predictable demand."
+  - id: "warehouse-medium"
+    description: "Random demand."
+  - id: "warehouse-hard"
+    description: "High volatility demand."
+    

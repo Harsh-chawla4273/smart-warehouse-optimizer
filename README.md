@@ -1,3 +1,10 @@
+title: Smart Warehouse Optimizer
+emoji: 📦
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_file: app.py
+pinned: false
 # 📦 AI-Driven Warehouse Inventory Optimizer (OpenEnv)
 
 This repository contains a custom **Reinforcement Learning (RL) Environment** designed for the **Meta PyTorch OpenEnv Hackathon**. It simulates a complex supply chain warehouse focusing on inventory management under uncertainty.
